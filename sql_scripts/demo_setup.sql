@@ -61,7 +61,7 @@
     -- TODO: Update API_ALLOWED_PREFIXES with your GitHub org URL
     CREATE OR REPLACE API INTEGRATION git_api_integration
         API_PROVIDER = git_https_api
-        API_ALLOWED_PREFIXES = ('https://github.com/YOUR_ORG/')
+        API_ALLOWED_PREFIXES = ('https://github.com/sfc-gh-pcline/')
         ENABLED = TRUE;
 
     GRANT USAGE ON INTEGRATION GIT_API_INTEGRATION TO ROLE HEALTHCARE_AI_DEMO;
@@ -71,7 +71,7 @@
     -- TODO: Update ORIGIN with your repository URL
     CREATE OR REPLACE GIT REPOSITORY HEALTHCARE_AI_DEMO_REPO
         API_INTEGRATION = git_api_integration
-        ORIGIN = 'https://github.com/YOUR_ORG/Healthcare_AI_DEMO.git';
+        ORIGIN = 'https://github.com/sfc-gh-pcline/healthcare-cortex-demo.git';
 
     -- Internal stage for data files
     CREATE OR REPLACE STAGE INTERNAL_DATA_STAGE
@@ -320,41 +320,41 @@
         CLAIMS_TO_PROVIDERS AS CLAIMS(PROVIDER_KEY) REFERENCES PROVIDERS(PROVIDER_KEY)
       )
       FACTS (
-        CLAIMS.CLAIM_AMOUNT AS claim_amount COMMENT 'Original billed charge amount in dollars',
-        CLAIMS.DENIED_AMOUNT AS denied_amount COMMENT 'Amount denied by payer in dollars',
-        CLAIMS.CLAIM_RECORD AS 1 COMMENT 'Count of denial claims',
-        CLAIMS.DAYS_TO_RESOLUTION AS days_to_resolution COMMENT 'Days from denial to resolution (appeals only)'
+        CLAIMS.CLAIM_AMOUNT AS claim_amount COMMENT = 'Original billed charge amount in dollars',
+        CLAIMS.DENIED_AMOUNT AS denied_amount COMMENT = 'Amount denied by payer in dollars',
+        CLAIMS.CLAIM_RECORD AS 1 COMMENT = 'Count of denial claims',
+        CLAIMS.DAYS_TO_RESOLUTION AS days_to_resolution COMMENT = 'Days from denial to resolution (appeals only)'
       )
       DIMENSIONS (
-        CLAIMS.DATE_OF_SERVICE AS date_of_service WITH SYNONYMS=('DOS','service date') COMMENT 'Date the medical service was provided',
-        CLAIMS.DENIAL_DATE AS denial_date WITH SYNONYMS=('denied date','denial date') COMMENT 'Date the claim was denied by the payer',
-        CLAIMS.DENIAL_MONTH AS MONTH(denial_date) COMMENT 'Month of the denial',
-        CLAIMS.DENIAL_YEAR AS YEAR(denial_date) COMMENT 'Year of the denial',
-        CLAIMS.PATIENT_ID AS patient_id COMMENT 'De-identified patient identifier',
-        PAYERS.PAYER_NAME AS payer_name WITH SYNONYMS=('insurance','health plan','payer') COMMENT 'Name of the insurance payer',
-        PAYERS.PAYER_TYPE AS payer_type WITH SYNONYMS=('insurance type','plan type') COMMENT 'Type of payer: Commercial, Government, Marketplace, Managed Care',
-        PROCEDURES.CPT_CODE AS cpt_code WITH SYNONYMS=('procedure code','CPT') COMMENT 'CPT procedure code',
-        PROCEDURES.PROCEDURE_DESCRIPTION AS procedure_description WITH SYNONYMS=('procedure','service') COMMENT 'Description of the medical procedure',
-        PROCEDURES.PROCEDURE_CATEGORY AS procedure_category WITH SYNONYMS=('service category','procedure type') COMMENT 'Category grouping for procedures',
-        PROCEDURES.STANDARD_CHARGE AS standard_charge COMMENT 'Standard charge amount for the procedure',
-        DEPARTMENTS.DEPARTMENT_NAME AS department_name WITH SYNONYMS=('department','specialty') COMMENT 'Clinical department name',
-        FACILITIES.FACILITY_NAME AS facility_name WITH SYNONYMS=('facility','location','hospital') COMMENT 'Name of the facility',
-        FACILITIES.FACILITY_TYPE AS facility_type COMMENT 'Type of facility',
-        FACILITIES.CARE_SETTING AS care_setting WITH SYNONYMS=('setting','place of service') COMMENT 'Care setting: Inpatient, Outpatient, Emergency, Ambulatory',
-        DENIAL_REASONS.DENIAL_REASON_CODE AS denial_reason_code WITH SYNONYMS=('reason code','CARC','denial code') COMMENT 'CARC denial reason code (e.g., CO-197, CO-16)',
-        DENIAL_REASONS.DENIAL_REASON_DESCRIPTION AS denial_reason_description WITH SYNONYMS=('denial reason','reason') COMMENT 'Full description of the denial reason',
-        DENIAL_REASONS.DENIAL_CATEGORY AS denial_category COMMENT 'High-level denial category: Coding, Documentation, Authorization, Clinical, Administrative',
-        DENIAL_REASONS.DENIAL_SUBCATEGORY AS denial_subcategory COMMENT 'Subcategory within the denial category',
-        APPEAL_STATUSES.APPEAL_STATUS AS appeal_status WITH SYNONYMS=('appeal outcome','appeal result') COMMENT 'Current appeal status: Not Appealed, Appeal Filed, Overturned, Upheld, etc.',
-        PROVIDERS.PROVIDER_NAME AS provider_name WITH SYNONYMS=('doctor','physician') COMMENT 'Rendering provider name'
+        CLAIMS.DATE_OF_SERVICE AS date_of_service WITH SYNONYMS=('DOS','service date') COMMENT = 'Date the medical service was provided',
+        CLAIMS.DENIAL_DATE AS denial_date WITH SYNONYMS=('denied date','denial date') COMMENT = 'Date the claim was denied by the payer',
+        CLAIMS.DENIAL_MONTH AS MONTH(denial_date) COMMENT = 'Month of the denial',
+        CLAIMS.DENIAL_YEAR AS YEAR(denial_date) COMMENT = 'Year of the denial',
+        CLAIMS.PATIENT_ID AS patient_id COMMENT = 'De-identified patient identifier',
+        PAYERS.PAYER_NAME AS payer_name WITH SYNONYMS=('insurance','health plan','payer') COMMENT = 'Name of the insurance payer',
+        PAYERS.PAYER_TYPE AS payer_type WITH SYNONYMS=('insurance type','plan type') COMMENT = 'Type of payer: Commercial, Government, Marketplace, Managed Care',
+        PROCEDURES.CPT_CODE AS cpt_code WITH SYNONYMS=('procedure code','CPT') COMMENT = 'CPT procedure code',
+        PROCEDURES.PROCEDURE_DESCRIPTION AS procedure_description WITH SYNONYMS=('procedure','service') COMMENT = 'Description of the medical procedure',
+        PROCEDURES.PROCEDURE_CATEGORY AS procedure_category WITH SYNONYMS=('service category','procedure type') COMMENT = 'Category grouping for procedures',
+        PROCEDURES.STANDARD_CHARGE AS standard_charge COMMENT = 'Standard charge amount for the procedure',
+        DEPARTMENTS.DEPARTMENT_NAME AS department_name WITH SYNONYMS=('department','specialty') COMMENT = 'Clinical department name',
+        FACILITIES.FACILITY_NAME AS facility_name WITH SYNONYMS=('facility','location','hospital') COMMENT = 'Name of the facility',
+        FACILITIES.FACILITY_TYPE AS facility_type COMMENT = 'Type of facility',
+        FACILITIES.CARE_SETTING AS care_setting WITH SYNONYMS=('setting','place of service') COMMENT = 'Care setting: Inpatient, Outpatient, Emergency, Ambulatory',
+        DENIAL_REASONS.DENIAL_REASON_CODE AS denial_reason_code WITH SYNONYMS=('reason code','CARC','denial code') COMMENT = 'CARC denial reason code (e.g., CO-197, CO-16)',
+        DENIAL_REASONS.DENIAL_REASON_DESCRIPTION AS denial_reason_description WITH SYNONYMS=('denial reason','reason') COMMENT = 'Full description of the denial reason',
+        DENIAL_REASONS.DENIAL_CATEGORY AS denial_category COMMENT = 'High-level denial category: Coding, Documentation, Authorization, Clinical, Administrative',
+        DENIAL_REASONS.DENIAL_SUBCATEGORY AS denial_subcategory COMMENT = 'Subcategory within the denial category',
+        APPEAL_STATUSES.APPEAL_STATUS AS appeal_status WITH SYNONYMS=('appeal outcome','appeal result') COMMENT = 'Current appeal status: Not Appealed, Appeal Filed, Overturned, Upheld, etc.',
+        PROVIDERS.PROVIDER_NAME AS provider_name WITH SYNONYMS=('doctor','physician') COMMENT = 'Rendering provider name'
       )
       METRICS (
-        CLAIMS.TOTAL_DENIALS AS COUNT(CLAIMS.claim_record) COMMENT 'Total number of denied claims',
-        CLAIMS.TOTAL_DENIED_AMOUNT AS SUM(CLAIMS.denied_amount) COMMENT 'Total dollar amount denied',
-        CLAIMS.TOTAL_CHARGES AS SUM(CLAIMS.claim_amount) COMMENT 'Total original billed charges',
-        CLAIMS.AVERAGE_DENIED_AMOUNT AS AVG(CLAIMS.denied_amount) COMMENT 'Average denied amount per claim',
-        CLAIMS.DENIAL_RATE AS SUM(CLAIMS.denied_amount) / NULLIF(SUM(CLAIMS.claim_amount), 0) COMMENT 'Denial rate as percentage of total charges',
-        CLAIMS.AVG_DAYS_TO_RESOLUTION AS AVG(CLAIMS.days_to_resolution) COMMENT 'Average days from denial to resolution'
+        CLAIMS.TOTAL_DENIALS AS COUNT(CLAIMS.claim_record) COMMENT = 'Total number of denied claims',
+        CLAIMS.TOTAL_DENIED_AMOUNT AS SUM(CLAIMS.denied_amount) COMMENT = 'Total dollar amount denied',
+        CLAIMS.TOTAL_CHARGES AS SUM(CLAIMS.claim_amount) COMMENT = 'Total original billed charges',
+        CLAIMS.AVERAGE_DENIED_AMOUNT AS AVG(CLAIMS.denied_amount) COMMENT = 'Average denied amount per claim',
+        CLAIMS.DENIAL_RATE AS SUM(CLAIMS.denied_amount) / NULLIF(SUM(CLAIMS.claim_amount), 0) COMMENT = 'Denial rate as percentage of total charges',
+        CLAIMS.AVG_DAYS_TO_RESOLUTION AS AVG(CLAIMS.days_to_resolution) COMMENT = 'Average days from denial to resolution'
       )
       COMMENT='Semantic view for healthcare denial claims analytics — covers denial volumes, reason codes, payer comparisons, appeal outcomes, financial impact, and resolution timelines';
 
@@ -385,24 +385,24 @@
         CLAIMS_TO_REASONS AS CLAIMS(DENIAL_REASON_KEY) REFERENCES DENIAL_REASONS(DENIAL_REASON_KEY)
       )
       FACTS (
-        APPEALS.DENIED_AMOUNT AS denied_amount COMMENT 'Original denied amount on the appeal',
-        APPEALS.RECOVERED_AMOUNT AS recovered_amount COMMENT 'Amount recovered through appeal',
-        APPEALS.APPEAL_RECORD AS 1 COMMENT 'Count of appeals'
+        APPEALS.DENIED_AMOUNT AS denied_amount COMMENT = 'Original denied amount on the appeal',
+        APPEALS.RECOVERED_AMOUNT AS recovered_amount COMMENT = 'Amount recovered through appeal',
+        APPEALS.APPEAL_RECORD AS 1 COMMENT = 'Count of appeals'
       )
       DIMENSIONS (
-        APPEALS.APPEAL_FILED_DATE AS appeal_filed_date COMMENT 'Date the appeal was filed',
-        APPEALS.APPEAL_LEVEL AS appeal_level COMMENT 'Appeal level: 1=First, 2=Second, 3=External Review',
-        APPEALS.APPEAL_LEVEL_NAME AS appeal_level_name COMMENT 'Name of the appeal level',
-        APPEAL_STATUSES.APPEAL_STATUS AS appeal_status COMMENT 'Appeal outcome',
-        PAYERS.PAYER_NAME AS payer_name COMMENT 'Insurance payer name',
-        DENIAL_REASONS.DENIAL_REASON_CODE AS denial_reason_code COMMENT 'Original denial reason code',
-        DENIAL_REASONS.DENIAL_REASON_DESCRIPTION AS denial_reason_description COMMENT 'Original denial reason'
+        APPEALS.APPEAL_FILED_DATE AS appeal_filed_date COMMENT = 'Date the appeal was filed',
+        APPEALS.APPEAL_LEVEL AS appeal_level COMMENT = 'Appeal level: 1=First, 2=Second, 3=External Review',
+        APPEALS.APPEAL_LEVEL_NAME AS appeal_level_name COMMENT = 'Name of the appeal level',
+        APPEAL_STATUSES.APPEAL_STATUS AS appeal_status COMMENT = 'Appeal outcome',
+        PAYERS.PAYER_NAME AS payer_name COMMENT = 'Insurance payer name',
+        DENIAL_REASONS.DENIAL_REASON_CODE AS denial_reason_code COMMENT = 'Original denial reason code',
+        DENIAL_REASONS.DENIAL_REASON_DESCRIPTION AS denial_reason_description COMMENT = 'Original denial reason'
       )
       METRICS (
-        APPEALS.TOTAL_APPEALS AS COUNT(APPEALS.appeal_record) COMMENT 'Total appeals filed',
-        APPEALS.TOTAL_RECOVERED AS SUM(APPEALS.recovered_amount) COMMENT 'Total dollars recovered through appeals',
-        APPEALS.RECOVERY_RATE AS SUM(APPEALS.recovered_amount) / NULLIF(SUM(APPEALS.denied_amount), 0) COMMENT 'Recovery rate as percentage of denied amount',
-        APPEALS.AVERAGE_RECOVERY AS AVG(APPEALS.recovered_amount) COMMENT 'Average recovery per appeal'
+        APPEALS.TOTAL_APPEALS AS COUNT(APPEALS.appeal_record) COMMENT = 'Total appeals filed',
+        APPEALS.TOTAL_RECOVERED AS SUM(APPEALS.recovered_amount) COMMENT = 'Total dollars recovered through appeals',
+        APPEALS.RECOVERY_RATE AS SUM(APPEALS.recovered_amount) / NULLIF(SUM(APPEALS.denied_amount), 0) COMMENT = 'Recovery rate as percentage of denied amount',
+        APPEALS.AVERAGE_RECOVERY AS AVG(APPEALS.recovered_amount) COMMENT = 'Average recovery per appeal'
       )
       COMMENT='Semantic view for appeal analytics — covers appeal volumes, recovery rates, outcomes by payer and denial reason';
 
