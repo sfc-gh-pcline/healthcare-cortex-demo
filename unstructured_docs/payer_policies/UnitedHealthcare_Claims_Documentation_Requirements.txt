@@ -1,0 +1,96 @@
+UNITEDEALTHCARE COMMERCIAL
+Claims Documentation and Submission Requirements
+Policy Number: UHC-CLAIMS-2025-001
+Effective Date: January 1, 2025
+
+SUBJECT: Required Documentation for Clean Claims Submission
+
+1. PURPOSE
+
+This document outlines the documentation requirements for submitting clean claims to UnitedHealthcare. Incomplete claims will be denied with reason code CO-16 (Claim/service lacks information or has submission/billing error). Following these guidelines will reduce denial rates and accelerate payment.
+
+2. REQUIRED CLAIM ELEMENTS
+
+2.1 Patient Information (Fields 1-13 on CMS-1500):
+   - Patient full legal name (must match member ID card exactly)
+   - Date of birth (MM/DD/YYYY format)
+   - Gender
+   - Member ID number (include all characters, no spaces)
+   - Group number
+   - Patient relationship to subscriber
+   - Patient address (complete with ZIP+4)
+
+2.2 Provider Information (Fields 24J, 31-33):
+   - Rendering provider name and credentials
+   - Rendering provider NPI (10-digit, verified in NPPES)
+   - Billing provider name, NPI, and Tax ID
+   - Service facility name and address (if different from billing provider)
+   - Referring/ordering provider NPI (REQUIRED for all specialist visits, diagnostic testing, and DME)
+
+2.3 Clinical Information (Fields 14, 21, 24):
+   - Date of onset/first symptom (for illness/injury claims)
+   - ICD-10 diagnosis codes (up to 12, primary diagnosis in field 21A)
+   - Procedure codes (CPT/HCPCS) with appropriate modifiers
+   - Place of service code (must accurately reflect setting)
+   - Units of service
+   - Diagnosis pointer linking each procedure to its supporting diagnosis
+
+2.4 Authorization Information (Field 23):
+   - Prior authorization number (when applicable)
+   - Referral number (for specialist visits requiring referral)
+
+3. COMMON CAUSES OF CO-16 DENIALS
+
+3.1 Missing Referring Provider: The #1 cause of CO-16 denials at UnitedHealthcare. Required for:
+   - All specialist office visits
+   - All diagnostic imaging (X-ray, CT, MRI, Ultrasound)
+   - All outpatient procedures
+   - Durable Medical Equipment orders
+   Resolution: Include the referring/ordering provider NPI in Box 17a of the CMS-1500
+
+3.2 Incomplete Authorization Numbers: Even when authorization was obtained, claims are denied CO-16 if:
+   - Authorization number is missing from the claim
+   - Authorization number format is incorrect
+   - Authorization number belongs to a different patient or procedure
+   Resolution: Always verify the authorization number matches the claim before submission
+
+3.3 Missing Accident/Injury Information: For trauma-related claims:
+   - Date of accident/injury must be included
+   - Place of accident must be documented
+   - If auto accident, state where accident occurred
+   - If work-related, workers' compensation information required
+
+3.4 Diagnosis Code Specificity: ICD-10 codes must be to the highest level of specificity:
+   - Unspecified codes (e.g., M79.3 instead of M79.31) may trigger CO-16
+   - Laterality must be specified when applicable
+   - 7th character extensions required for injuries and fractures
+
+4. TIMELY FILING REQUIREMENTS
+
+- In-network providers: Claims must be submitted within 90 days of the date of service
+- Out-of-network providers: Claims must be submitted within 180 days of the date of service
+- Corrected claims: Must be resubmitted within 90 days of the denial date
+- Claims submitted after the filing deadline will be denied with CO-29 (timely filing)
+
+5. ELECTRONIC SUBMISSION REQUIREMENTS
+
+- UnitedHealthcare requires electronic claim submission for all participating providers
+- Payer ID for electronic claims: 87726
+- Accepted formats: ANSI X12 837P (Professional) and 837I (Institutional)
+- Paper claims may incur processing delays of 15-30 additional days
+
+6. CORRECTED CLAIMS
+
+When resubmitting a corrected claim:
+- Use frequency code 7 (replacement) or 8 (void)
+- Include the original claim number as a reference
+- Clearly identify the corrected fields
+- Attach supporting documentation for the correction
+
+7. CONTACT INFORMATION
+
+Provider Services: 1-877-842-3210
+Claims Status Inquiry: 1-877-842-3210, Option 2
+Electronic Claims Support: 1-800-842-1109
+Provider Portal: www.uhcprovider.com
+Claims Address: UnitedHealthcare, P.O. Box 30555, Salt Lake City, UT 84130-0555

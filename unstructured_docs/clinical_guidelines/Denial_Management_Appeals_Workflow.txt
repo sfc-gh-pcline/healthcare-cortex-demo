@@ -1,0 +1,148 @@
+GRADY HEALTH SYSTEM
+Revenue Cycle Policy: Denial Management and Appeals Workflow
+Document Number: GHS-RC-DM-2025-001
+Effective Date: January 1, 2025
+Department: Revenue Cycle Management
+Approved By: VP of Revenue Cycle
+
+SUBJECT: Standard Operating Procedures for Denial Prevention, Management, and Appeals
+
+1. PURPOSE
+
+This policy establishes the framework for managing claim denials across Grady Health System, including prevention strategies, workflow standards, escalation procedures, and performance metrics.
+
+2. DENIAL CATEGORIZATION
+
+All denials are categorized into the following groups for tracking and resolution:
+
+2.1 Clinical Denials:
+   - Medical necessity (CO-234, CO-50)
+   - Diagnosis mismatch (CO-11)
+   - Level of care disputes
+   - Observation vs. inpatient status
+   Responsible: Clinical Denials Team / Physician Advisors
+   Target appeal rate: 85%
+   Target overturn rate: 65%
+
+2.2 Technical/Administrative Denials:
+   - Missing information (CO-16)
+   - Duplicate claims (CO-18)
+   - Timely filing (CO-29)
+   - Coordination of benefits (CO-22)
+   Responsible: Billing Denials Team
+   Target appeal rate: 70%
+   Target overturn rate: 80%
+
+2.3 Authorization Denials:
+   - Prior authorization required (CO-197)
+   - Authorization not obtained (CO-15)
+   - Authorization expired
+   Responsible: Authorization Team / Clinical Staff
+   Target appeal rate: 90%
+   Target overturn rate: 55%
+
+2.4 Coding Denials:
+   - Modifier issues (CO-4)
+   - Bundling (CO-97)
+   - Upcoding/downcoding
+   Responsible: Coding Compliance Team
+   Target appeal rate: 75%
+   Target overturn rate: 70%
+
+2.5 Contractual Denials:
+   - Fee schedule (CO-45)
+   - Patient responsibility (PR-1, PR-2, PR-3)
+   Responsible: Contract Management Team
+   Action: Verify against contract terms; adjust or appeal
+
+3. DENIAL WORKFLOW
+
+3.1 Identification (Day 0-1):
+   - Electronic remittance advice (ERA) loaded into billing system daily
+   - Denials automatically categorized by denial reason code
+   - High-dollar denials (>$10,000) flagged for priority review
+   - Dashboard updated with denial counts, amounts, and aging
+
+3.2 Initial Review (Day 1-3):
+   - Assigned analyst reviews denial within 3 business days
+   - Determine if denial is valid (write off) or appealable
+   - If appealable, gather required documentation
+   - If correctable (e.g., CO-16), resubmit corrected claim immediately
+
+3.3 Appeal Filing (Day 3-14):
+   - First level appeals filed within 14 days of denial
+   - All appeals must include:
+     a) Cover letter citing specific denial reason and appeal basis
+     b) Copy of denial notice / Explanation of Benefits
+     c) Relevant medical records
+     d) Supporting clinical documentation
+     e) Peer-reviewed literature (for medical necessity appeals)
+     f) Provider letter of medical necessity (when applicable)
+
+3.4 Appeal Tracking (Day 14-60):
+   - Follow up on pending appeals every 14 days
+   - Document all follow-up activities (date, contact, reference number)
+   - Escalate to second level if no response within 45 days
+
+3.5 Resolution (Day 60-120):
+   - Record appeal outcome (overturned, upheld, partial)
+   - If overturned: verify payment posted correctly
+   - If upheld: determine if second level appeal or external review is warranted
+   - If write-off: document reason and obtain appropriate approval
+
+4. PREVENTION STRATEGIES
+
+4.1 Pre-Service:
+   - Verify eligibility and benefits before every encounter
+   - Obtain prior authorization for all required services
+   - Document authorization numbers in the registration system
+   - Perform medical necessity checks using clinical decision support tools
+
+4.2 Point-of-Service:
+   - Ensure complete and accurate documentation at the time of service
+   - Use coding decision trees for E/M level selection
+   - Complete physician attestations within 24 hours
+   - Capture all charges within 3 days of service
+
+4.3 Post-Service:
+   - Submit clean claims within 48 hours of charge capture
+   - Monitor claim status at 14-day intervals
+   - Address rejected claims within 24 hours
+   - Review underpayments against contracted rates
+
+5. PERFORMANCE METRICS
+
+5.1 Key Performance Indicators:
+   - Overall denial rate: Target < 5% of net revenue
+   - Initial denial rate: Target < 8% of claims submitted
+   - Appeal rate: Target > 75% of eligible denials appealed
+   - Appeal overturn rate: Target > 60%
+   - Average days to appeal: Target < 14 days
+   - Average days to resolution: Target < 45 days
+   - Net write-off from denials: Target < 2% of net revenue
+
+5.2 Reporting:
+   - Daily: Denial volume and high-dollar alerts
+   - Weekly: Denial trending by reason code, payer, department
+   - Monthly: Comprehensive denial dashboard with financial impact
+   - Quarterly: Root cause analysis and process improvement recommendations
+
+6. ESCALATION MATRIX
+
+   Denial Amount    | Approval Required     | Escalation Path
+   < $5,000         | Denial Analyst        | Team Lead
+   $5,000 - $25,000 | Team Lead             | Denial Manager
+   $25,000 - $100K  | Denial Manager        | Director of Revenue Cycle
+   > $100,000       | Director              | VP of Revenue Cycle / CFO
+
+7. WRITE-OFF APPROVAL
+
+   Amount           | Approval Authority
+   < $1,000         | Denial Analyst
+   $1,000 - $10,000 | Team Lead
+   $10,000 - $50K   | Denial Manager
+   > $50,000        | Director of Revenue Cycle
+
+Contact: Revenue Cycle Denials Team, ext. 4-5500
+Denial Dashboard: Available on Snowflake Intelligence
+Appeals Fax: 404-616-XXXX

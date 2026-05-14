@@ -1,0 +1,11 @@
+payer_key,payer_name,payer_type
+1,Aetna,Commercial
+2,Blue Cross Blue Shield,Commercial
+3,UnitedHealthcare,Commercial
+4,Cigna,Commercial
+5,Humana,Commercial
+6,Medicare,Government
+7,Medicaid,Government
+8,Tricare,Government
+9,Ambetter,Marketplace
+10,Molina Healthcare,Managed Care

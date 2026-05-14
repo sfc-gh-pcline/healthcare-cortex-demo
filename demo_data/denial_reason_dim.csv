@@ -1,0 +1,16 @@
+denial_reason_key,denial_reason_code,denial_reason_description,denial_category,denial_subcategory
+1,CO-4,Procedure code inconsistent with modifier,Coding,Modifier
+2,CO-16,Missing or incomplete information,Documentation,Missing Info
+3,CO-18,Duplicate claim/service,Billing,Duplicate
+4,CO-29,Timely filing limit exceeded,Administrative,Timely Filing
+5,CO-50,Non-covered service,Coverage,Non-Covered
+6,CO-97,Payment adjusted - bundling,Coding,Bundling
+7,CO-197,Prior authorization required,Authorization,Prior Auth
+8,PR-1,Deductible amount,Patient Responsibility,Deductible
+9,PR-2,Coinsurance amount,Patient Responsibility,Coinsurance
+10,PR-3,Copayment amount,Patient Responsibility,Copay
+11,CO-11,Diagnosis inconsistent with procedure,Clinical,Diagnosis Mismatch
+12,CO-15,Authorization not obtained,Authorization,No Auth
+13,CO-22,Care may be covered by another payer,Coordination,COB
+14,CO-45,Charges exceed fee schedule,Contractual,Fee Schedule
+15,CO-234,Not medically necessary,Clinical,Medical Necessity

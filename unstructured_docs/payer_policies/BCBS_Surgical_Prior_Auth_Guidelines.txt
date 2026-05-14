@@ -1,0 +1,84 @@
+BLUE CROSS BLUE SHIELD OF GEORGIA
+Prior Authorization Guidelines - Surgical Procedures
+Policy Number: BCBS-GA-SURG-2025-001
+Effective Date: January 1, 2025
+Last Reviewed: November 30, 2024
+
+SUBJECT: Prior Authorization Requirements for Elective Surgical Procedures
+
+1. SCOPE
+
+This policy applies to all elective surgical procedures performed in outpatient, ambulatory surgery center, and inpatient settings when the expected total charges exceed $5,000. Emergency and urgent procedures are exempt from prior authorization but must be reported within 48 hours.
+
+2. PRIOR AUTHORIZATION REQUIREMENTS
+
+2.1 Submission Timeline: Authorization requests must be submitted at least 14 business days before the scheduled procedure date for elective cases. Expedited reviews are available for urgent (non-emergent) cases within 72 hours.
+
+2.2 Required Documentation:
+   a) Procedure CPT code(s) and detailed description
+   b) ICD-10 diagnosis code(s) with clinical rationale
+   c) Clinical rationale and supporting medical records including:
+      - History and physical examination dated within 30 days
+      - Relevant diagnostic test results (imaging, labs, pathology)
+      - Conservative treatment history documenting minimum duration:
+        * Orthopedic procedures: 6 weeks of conservative therapy
+        * Spine procedures: 12 weeks of conservative therapy
+        * Bariatric procedures: 6 months supervised weight management
+   d) Imaging results dated within 90 days of the requested procedure
+   e) Specialist consultation notes
+   f) For total joint replacement: documentation of failed conservative measures including physical therapy, NSAIDs, and corticosteroid injections
+
+2.3 Specific Procedure Requirements:
+
+   Total Knee Replacement (CPT 27447):
+   - BMI documentation (BMI > 40 may require additional clearance)
+   - X-ray evidence of Kellgren-Lawrence Grade 3 or 4 osteoarthritis
+   - Minimum 6 weeks physical therapy documentation
+   - Trial of at least 2 different NSAID medications
+   - At least 1 corticosteroid injection with documented response
+
+   Total Hip Replacement (CPT 27130):
+   - X-ray evidence of joint space narrowing or avascular necrosis
+   - Functional assessment score (Harris Hip Score or equivalent)
+   - Documentation of impact on activities of daily living
+
+   Laparoscopic Cholecystectomy (CPT 47562):
+   - Ultrasound confirming cholelithiasis or cholecystitis
+   - Documentation of symptoms (biliary colic, right upper quadrant pain)
+   - Labs including liver function tests and CBC
+
+3. DENIAL CODES AND RESOLUTION
+
+3.1 CO-197 (Prior authorization/notification required): This is the most common surgical denial. Prevention strategies:
+   - Always verify authorization requirements using the BCBS provider portal
+   - Obtain authorization BEFORE scheduling the procedure
+   - Document the authorization number on the claim form (Box 23 on CMS-1500)
+   - Verify that the authorized CPT code matches the performed procedure exactly
+   - If the procedure scope changes intraoperatively, notify BCBS within 24 hours
+
+3.2 CO-234 (Not medically necessary): Common when conservative treatment documentation is insufficient. Ensure medical records clearly document:
+   - Duration and type of conservative treatment
+   - Patient's functional limitations
+   - Progression of condition despite treatment
+   - Specific clinical criteria met for the requested procedure
+
+4. APPEAL PROCESS
+
+First Level Appeal: Submit within 180 days of denial.
+   Required: Written appeal letter, clinical documentation, peer-reviewed evidence
+   Timeline: Decision within 30 calendar days
+
+Second Level Appeal: Submit within 60 days of first level denial.
+   Required: Additional clinical evidence, specialist letter of medical necessity
+   Timeline: Decision within 45 calendar days
+
+External Review: Available for medical necessity denials after exhausting internal appeals.
+   Filed through the Georgia Department of Insurance
+   Timeline: Decision within 45 calendar days
+
+5. CONTACT INFORMATION
+
+Provider Services: 1-800-727-2227
+Prior Authorization: 1-800-572-2682
+Prior Authorization Fax: 1-888-357-1904
+Provider Portal: www.availity.com

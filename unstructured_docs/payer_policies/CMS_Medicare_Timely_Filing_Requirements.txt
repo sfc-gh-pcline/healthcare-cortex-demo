@@ -1,0 +1,93 @@
+CENTERS FOR MEDICARE & MEDICAID SERVICES (CMS)
+Medicare Claims Processing Manual - Timely Filing Requirements
+Publication: CMS Pub 100-04, Chapter 1, Section 70
+Effective: January 1, 2024
+Last Updated: October 2024
+
+SUBJECT: Timely Filing Requirements and Denial Code CO-29
+
+1. STATUTORY FILING DEADLINES
+
+1.1 Original Medicare (Parts A and B):
+   - Claims must be filed within 12 calendar months (365 days) of the date of service
+   - For services spanning multiple dates, the filing deadline begins from the last date of service
+   - Calendar year rule: Claims for services provided in 2024 must be filed by December 31, 2025
+
+1.2 Medicare Advantage (Part C) Plans:
+   - Filing deadlines vary by plan, typically 90-180 days from date of service
+   - Providers must verify the specific deadline with each Medicare Advantage plan
+   - Common Medicare Advantage timely filing deadlines:
+     * Humana Medicare: 365 days
+     * UnitedHealthcare Medicare: 365 days
+     * Aetna Medicare: 365 days
+     * Blue Cross Medicare: 90 days (varies by state)
+
+1.3 Medicare Part D (Prescription Drugs):
+   - Pharmacy claims: Must be submitted at point of sale
+   - Paper claims: Within 36 months of the date of service
+
+2. DENIAL CODE CO-29 (TIMELY FILING LIMIT EXCEEDED)
+
+2.1 This denial code indicates the claim was received after the applicable filing deadline. Important: CO-29 denials CANNOT be appealed on the basis of medical necessity.
+
+2.2 Valid Appeal Bases for CO-29:
+   - Proof of timely original submission (clearinghouse transmission confirmation)
+   - Documentation that the delay was caused by the payer (e.g., incorrect member ID provided)
+   - Retroactive Medicare eligibility determination
+   - Natural disaster or other extraordinary circumstance
+
+2.3 Invalid Appeal Bases (will be rejected):
+   - Provider was unaware of filing deadline
+   - Internal billing system issues
+   - Staff turnover or vacation
+   - Medical necessity of the service
+
+3. PREVENTION STRATEGIES
+
+3.1 Submission Best Practices:
+   a) Submit all claims within 48 hours of the date of service
+   b) Monitor claim status at 14-day intervals using:
+      - Medicare Administrative Contractor (MAC) provider portal
+      - Interactive Voice Response (IVR) system
+      - HIPAA 276/277 electronic claim status inquiry
+   c) Set automated alerts for claims approaching filing deadlines:
+      - 60-day warning for claims not yet acknowledged
+      - 30-day warning for claims denied or rejected and not yet corrected
+      - 14-day warning for claims approaching the absolute filing deadline
+
+3.2 Documentation Retention:
+   - Maintain clearinghouse transmission logs as proof of submission date
+   - Keep electronic acknowledgment receipts (999, TA1)
+   - Archive claim status inquiry results
+   - Document all phone contacts with payer (date, time, representative name, reference number)
+
+3.3 Common Scenarios Leading to CO-29:
+   a) Claims submitted to wrong payer due to incorrect eligibility verification
+   b) Claims rejected for errors and not corrected/resubmitted timely
+   c) Claims held pending medical records that were never obtained
+   d) Coordination of benefits (COB) delays when primary payer processing is slow
+   e) Retroactive termination of patient's coverage
+
+4. CORRECTED CLAIMS AND ADJUSTMENTS
+
+4.1 Corrected claims are NOT subject to the original filing deadline IF:
+   - The original claim was timely filed
+   - The corrected claim is submitted within 12 months of the original claim's processing date
+   - The corrected claim references the original claim number
+
+4.2 Late charges (additional line items) must be submitted as a new claim and ARE subject to the original filing deadline.
+
+5. STATE PROMPT PAYMENT LAWS
+
+Georgia Prompt Payment Act (O.C.G.A. § 33-24-59.5):
+   - Clean claims must be paid within 15 business days (electronic) or 30 business days (paper)
+   - Interest accrues at 18% per annum on late payments
+   - Does not override timely filing requirements
+
+6. RESOURCES
+
+Medicare Administrative Contractor (Georgia): Palmetto GBA
+   Phone: 1-866-625-0368
+   Portal: www.palmettogba.com
+CMS Provider Resources: www.cms.gov/Medicare/Billing
+Medicare Claims Filing: 1-800-MEDICARE (1-800-633-4227)

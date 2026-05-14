@@ -1,0 +1,125 @@
+GRADY HEALTH SYSTEM
+Clinical Guidelines: Imaging Prior Authorization Requirements
+Document Number: GHS-CG-IMG-2025-001
+Effective Date: January 1, 2025
+Department: Radiology
+Approved By: Chair of Radiology
+
+SUBJECT: Prior Authorization Requirements for Advanced Diagnostic Imaging
+
+1. PURPOSE
+
+This guideline outlines prior authorization requirements for advanced diagnostic imaging services to reduce CO-197 denials and ensure compliance with payer requirements. Advanced imaging includes MRI, CT, PET/CT, and nuclear medicine studies.
+
+2. SERVICES REQUIRING PRIOR AUTHORIZATION
+
+The following imaging services require prior authorization from MOST commercial payers and Medicaid managed care plans:
+
+2.1 MRI Studies:
+   - MRI Brain (CPT 70551, 70553)
+   - MRI Spine - Cervical, Thoracic, Lumbar (CPT 72141-72158)
+   - MRI Extremity (CPT 73218-73723)
+   - MRI Abdomen/Pelvis (CPT 74181-74183)
+   - MRI Cardiac (CPT 75557-75563)
+
+2.2 CT Studies:
+   - CT Head/Brain (CPT 70450-70460) - NOTE: NOT required for emergency presentations
+   - CT Chest (CPT 71260-71270)
+   - CT Abdomen/Pelvis (CPT 74176-74178)
+   - CT Angiography (CPT 71275, 74174, 74175)
+
+2.3 PET/CT Studies:
+   - PET Brain (CPT 78816)
+   - PET Whole Body (CPT 78815, 78816)
+   - All PET studies require prior authorization regardless of payer
+
+2.4 Nuclear Medicine:
+   - Cardiac stress test - nuclear (CPT 78451, 78452)
+   - Bone scan (CPT 78300, 78305)
+   - Thyroid uptake and scan (CPT 78012, 78014)
+
+3. EXEMPTIONS FROM PRIOR AUTHORIZATION
+
+The following scenarios do NOT require prior authorization:
+   - Emergency Department patients with acute presentations
+   - Inpatient orders (covered under inpatient authorization)
+   - X-rays (all standard radiographs)
+   - Ultrasound studies
+   - Mammography (screening and diagnostic)
+   - Fluoroscopy
+   - CT Head without contrast for emergency presentations (trauma, stroke, altered mental status)
+
+4. PAYER-SPECIFIC REQUIREMENTS
+
+4.1 Aetna:
+   - Uses EviCore for radiology authorization
+   - Phone: 1-888-693-3211
+   - Portal: www.evicore.com
+   - Turnaround: 2 business days (standard), 24 hours (urgent)
+
+4.2 Blue Cross Blue Shield of GA:
+   - Uses AIM Specialty Health
+   - Phone: 1-800-859-5299
+   - Portal: www.aimspecialtyhealth.com
+   - Turnaround: 2 business days (standard)
+
+4.3 UnitedHealthcare:
+   - Internal authorization program
+   - Phone: 1-866-889-8054
+   - Portal: www.uhcprovider.com
+   - Turnaround: 5 business days (standard)
+
+4.4 Cigna:
+   - Uses EviCore for radiology authorization
+   - Phone: 1-888-693-3211
+   - Same portal as Aetna
+
+4.5 Medicare (Original):
+   - NO prior authorization required for any imaging studies
+   - Claims may be subject to post-payment review for medical necessity
+
+4.6 Medicaid (Georgia):
+   - Prior authorization required for: MRI, CT with contrast, PET/CT, cardiac nuclear studies
+   - Not required for: CT without contrast, standard X-rays, ultrasound
+   - Portal: www.mmis.georgia.gov
+
+5. CLINICAL DECISION SUPPORT REQUIREMENTS
+
+5.1 CMS Appropriate Use Criteria (AUC):
+   - As of January 2025, ordering providers must consult a qualified Clinical Decision Support Mechanism (CDSM) when ordering advanced imaging for Medicare patients
+   - Grady uses [CDSM Vendor] integrated into the EHR ordering workflow
+   - The CDSM consultation ID must be included on the claim
+   - AUC adherence is a quality measure and does not affect payment (currently educational period)
+
+5.2 Documentation Requirements for Authorization:
+   - Clinical indication (signs, symptoms, relevant history)
+   - Results of prior imaging (to demonstrate progression or need for advanced study)
+   - Conservative treatment attempted (for musculoskeletal imaging)
+   - Relevant lab results
+   - Prior imaging results and dates
+
+6. WORKFLOW FOR ORDERING PROVIDERS
+
+Step 1: Order the study in the EHR
+Step 2: CDSM automatically consulted (Medicare patients)
+Step 3: Authorization team checks payer requirements
+Step 4: If prior auth required:
+   a) Authorization team submits request with clinical documentation
+   b) If approved: study scheduled
+   c) If denied: ordering provider notified for peer-to-peer review
+   d) If peer-to-peer unsuccessful: appeal or alternative study considered
+Step 5: If prior auth NOT required: study scheduled directly
+
+7. DENIAL PREVENTION METRICS
+
+Target denial rate for imaging CO-197: < 3%
+Current baseline: 7.2% (as of Q4 2024)
+Root causes identified:
+   - 45% - Authorization obtained but not documented on claim
+   - 30% - Authorization not obtained before study performed
+   - 15% - Study performed differs from authorized study
+   - 10% - Authorization expired before study date
+
+Contact: Radiology Prior Authorization Team, ext. 4-3200
+Imaging Scheduling: ext. 4-3100
+Radiology Denials: ext. 4-5510

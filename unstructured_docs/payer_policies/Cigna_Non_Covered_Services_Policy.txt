@@ -1,0 +1,92 @@
+CIGNA HEALTHCARE
+Coverage Policy: Non-Covered Services, Exclusions, and Benefit Limitations
+Policy Number: CIGNA-COV-2025-001
+Effective Date: January 1, 2025
+
+SUBJECT: Services Excluded from Coverage and Denial Code PR-204
+
+1. OVERVIEW
+
+This policy outlines services that are excluded from coverage under standard Cigna benefit plans. Claims for excluded services will be denied with reason code PR-204 (This service/equipment/drug is not covered under the patient's current benefit plan). Members are responsible for the full cost of non-covered services.
+
+2. GENERAL EXCLUSIONS
+
+The following services are NOT covered under standard benefit plans:
+
+2.1 Experimental/Investigational Procedures:
+   - Procedures not approved by the FDA for the specific indication
+   - Off-label use of devices without peer-reviewed supporting evidence
+   - Clinical trial procedures (unless specifically covered by the member's plan)
+   - Gene therapy for conditions without FDA approval
+
+2.2 Cosmetic Services:
+   - Procedures performed primarily to improve appearance without documented functional impairment
+   - Examples: rhinoplasty (cosmetic), blepharoplasty (cosmetic), abdominoplasty, liposuction
+   - Exception: Reconstructive surgery following trauma, cancer treatment, or congenital anomaly IS covered
+
+2.3 Out-of-Network Services (without authorization):
+   - Services rendered by non-participating providers without prior authorization
+   - Exception: Emergency services are covered regardless of network status
+   - Exception: If no in-network provider is available within a reasonable distance
+
+2.4 Duplicate Services:
+   - Same service performed by the same provider on the same date of service
+   - Same diagnostic test repeated without clinical justification
+   - Claims submitted for services already paid under a different claim number
+
+2.5 Services Exceeding Benefit Limits:
+   - Physical therapy beyond the annual visit limit (typically 30 visits/year)
+   - Mental health visits beyond the annual limit (if applicable)
+   - DME exceeding the benefit period maximum
+
+3. SPECIFIC NON-COVERED SERVICES
+
+3.1 The following are specifically excluded:
+   - Weight loss surgery for BMI < 35 (or < 30 without comorbidities)
+   - Dental services (unless medical plan includes dental rider)
+   - Vision correction surgery (LASIK, PRK) unless medically necessary
+   - Hearing aids (unless plan includes hearing benefit)
+   - Long-term custodial care
+   - Personal comfort items during hospitalization
+   - Travel or transportation (except approved ambulance transport)
+
+4. COVERAGE EXCEPTION PROCESS
+
+Members may request a coverage exception if they believe a denied service should be covered:
+
+4.1 Standard Review: Submit written request with:
+   - Letter from treating physician explaining medical necessity
+   - Peer-reviewed clinical evidence supporting the service
+   - Documentation of why alternative covered services are inadequate
+   Timeline: Decision within 30 calendar days
+
+4.2 Expedited Review: Available when standard timeline could jeopardize health
+   Timeline: Decision within 72 hours
+
+5. APPEAL PROCESS FOR PR-204 DENIALS
+
+5.1 Internal Appeal:
+   - Must be filed within 180 days of the denial notice
+   - Include: denial letter, clinical records, physician letter, supporting evidence
+   - Cigna will respond within 30 calendar days (standard) or 72 hours (expedited)
+
+5.2 External Review:
+   - Available after exhausting internal appeals
+   - Must be requested within 4 months of final internal appeal denial
+   - Conducted by an independent review organization (IRO)
+   - IRO decision is binding on Cigna
+
+6. MEMBER FINANCIAL RESPONSIBILITY
+
+When a service is denied as PR-204:
+   - The member is responsible for the full billed amount
+   - The service does not count toward deductible or out-of-pocket maximum
+   - Providers must inform members of potential non-coverage BEFORE rendering services
+   - An Advance Beneficiary Notice (ABN) or similar waiver should be signed
+
+7. CONTACT INFORMATION
+
+Provider Services: 1-800-244-6224
+Coverage Determination Requests: 1-800-244-6224, Option 3
+Appeals: Cigna Appeals, P.O. Box 188011, Chattanooga, TN 37422
+Member Services: 1-800-997-1654

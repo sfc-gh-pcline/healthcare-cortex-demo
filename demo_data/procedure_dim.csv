@@ -1,0 +1,26 @@
+procedure_key,cpt_code,procedure_description,procedure_category,standard_charge
+1,99213,Office Visit - Level 3,Evaluation & Management,250.0
+2,99214,Office Visit - Level 4,Evaluation & Management,350.0
+3,99232,Hospital Visit - Level 2,Evaluation & Management,500.0
+4,99284,ED Visit - Level 4,Emergency,1200.0
+5,99285,ED Visit - Level 5,Emergency,2500.0
+6,93458,Left Heart Catheterization,Cardiology,12500.0
+7,93306,Echocardiography Complete,Cardiology,3500.0
+8,93000,Electrocardiogram (ECG),Cardiology,450.0
+9,27447,Total Knee Replacement,Orthopedics,45000.0
+10,29881,Knee Arthroscopy,Orthopedics,15000.0
+11,27130,Total Hip Replacement,Orthopedics,48000.0
+12,43239,Upper GI Endoscopy with Biopsy,Gastroenterology,8500.0
+13,45378,Colonoscopy Diagnostic,Gastroenterology,6500.0
+14,70553,MRI Brain w/ and w/o Contrast,Radiology,6000.0
+15,74177,CT Abdomen/Pelvis w/ Contrast,Radiology,4500.0
+16,71260,CT Chest w/ Contrast,Radiology,3800.0
+17,36561,Central Venous Catheter Insertion,General Surgery,5500.0
+18,47562,Laparoscopic Cholecystectomy,General Surgery,22000.0
+19,59400,Obstetric Care - Vaginal Delivery,OB/GYN,18000.0
+20,59510,Cesarean Delivery,OB/GYN,28000.0
+21,90837,Psychotherapy 60 min,Behavioral Health,200.0
+22,90834,Psychotherapy 45 min,Behavioral Health,150.0
+23,99223,Initial Hospital Care - Level 3,Evaluation & Management,750.0
+24,36415,Venipuncture,Laboratory,35.0
+25,80053,Comprehensive Metabolic Panel,Laboratory,120.0

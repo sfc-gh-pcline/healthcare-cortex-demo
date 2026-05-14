@@ -1,0 +1,9 @@
+facility_key,facility_name,facility_type,care_setting,address,city,state,zip
+1,Grady Memorial Hospital,Main Campus,Inpatient,80 Jesse Hill Jr Dr SE,Atlanta,GA,30303
+2,Grady Outpatient Center,Outpatient Clinic,Outpatient,341 Ponce de Leon Ave NE,Atlanta,GA,30308
+3,Grady Emergency Department,Emergency Dept,Emergency,80 Jesse Hill Jr Dr SE,Atlanta,GA,30303
+4,Grady Endoscopy Center,Procedure Center,Outpatient,201 Central Ave SW,Atlanta,GA,30312
+5,Grady Imaging Center,Diagnostic Center,Outpatient,100 Edgewood Ave NE,Atlanta,GA,30303
+6,Grady Surgery Center,Surgery Center,Ambulatory,55 Jesse Hill Jr Dr SE,Atlanta,GA,30303
+7,Grady Behavioral Health,Behavioral Health,Inpatient,80 Jesse Hill Jr Dr SE,Atlanta,GA,30303
+8,Grady Primary Care - East Point,Community Clinic,Outpatient,1920 Roosevelt Hwy,East Point,GA,30344

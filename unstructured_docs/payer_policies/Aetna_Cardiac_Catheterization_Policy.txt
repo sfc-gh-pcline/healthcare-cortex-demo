@@ -1,0 +1,60 @@
+AETNA COMMERCIAL COVERAGE POLICY
+Policy Number: AET-CARD-2025-001
+Effective Date: January 1, 2025
+Last Reviewed: December 15, 2024
+Department: Medical Policy - Cardiovascular
+
+SUBJECT: Cardiac Catheterization and Coronary Angiography Coverage Criteria
+
+1. POLICY STATEMENT
+
+Aetna considers diagnostic cardiac catheterization (CPT 93458, 93459, 93460, 93461) medically necessary when performed for the evaluation of known or suspected coronary artery disease, valvular heart disease, or congenital heart disease when non-invasive testing is inconclusive or suggests significant cardiac pathology.
+
+2. PRIOR AUTHORIZATION REQUIREMENTS
+
+2.1 Inpatient Setting: Prior authorization is NOT required for diagnostic left heart catheterization (CPT 93458) when performed in an inpatient setting with documented acute coronary syndrome (ACS) presentation, including ST-elevation myocardial infarction (STEMI), non-ST-elevation myocardial infarction (NSTEMI), or unstable angina with positive troponin.
+
+2.2 Outpatient Setting: Prior authorization IS REQUIRED for all outpatient diagnostic catheterization procedures. Authorization requests must be submitted at least 5 business days before the scheduled procedure date.
+
+2.3 Required Documentation for Authorization:
+   a) Clinical indication and presenting symptoms (chest pain, dyspnea, syncope)
+   b) Results of non-invasive testing within the past 90 days:
+      - Stress test (exercise or pharmacologic) with results
+      - Echocardiography with ejection fraction and wall motion findings
+      - Cardiac CT angiography if performed
+   c) Risk stratification assessment using validated tool (Framingham, ASCVD)
+   d) Conservative treatment history (medications, lifestyle modifications)
+   e) Relevant comorbidities (diabetes, hypertension, hyperlipidemia, family history)
+
+3. COMMON DENIAL REASONS AND PREVENTION
+
+3.1 Denial Code CO-4 (Procedure code inconsistent with modifier): This denial commonly occurs when the setting of care modifier is missing or incorrect. Ensure the following modifiers are applied correctly:
+   - Modifier -26 (Professional Component) for physician interpretation only
+   - Modifier -TC (Technical Component) for facility charges only
+   - Modifier -59 (Distinct Procedural Service) when multiple procedures are performed
+   - Place of Service code must match the actual setting (11=Office, 22=Outpatient Hospital, 21=Inpatient Hospital)
+
+3.2 Denial Code CO-197 (Prior authorization required): To prevent this denial:
+   - Verify authorization requirements before scheduling
+   - Obtain authorization number and document in the claim
+   - Ensure the authorized procedure matches the performed procedure
+   - Check that the authorization has not expired
+
+4. APPEAL PROCEDURES
+
+4.1 First Level Appeal: Must be filed within 180 days of the denial notice. Include:
+   - Copy of the original denial letter
+   - Clinical documentation supporting medical necessity
+   - Peer-reviewed literature supporting the procedure
+   - Letter from the treating physician explaining clinical rationale
+
+4.2 Second Level Appeal: Must be filed within 60 days of first level appeal denial. May request peer-to-peer review with Aetna medical director.
+
+4.3 External Review: Available after exhausting internal appeals. Filed with the state Department of Insurance.
+
+5. REIMBURSEMENT
+
+Reimbursement is based on the Aetna fee schedule for the applicable CPT code and geographic region. Facility charges are reimbursed separately from professional fees. Out-of-network providers may be subject to balance billing provisions per the member's benefit plan.
+
+Contact: Aetna Provider Services 1-800-624-0756
+Prior Authorization Fax: 1-860-754-5440

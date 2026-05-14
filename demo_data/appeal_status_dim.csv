@@ -1,0 +1,8 @@
+appeal_status_key,appeal_status,appeal_status_description
+1,Not Appealed,No appeal filed
+2,Appeal Filed,"Appeal submitted, awaiting review"
+3,Under Review,Appeal being reviewed by payer
+4,Overturned,Denial reversed on appeal
+5,Upheld,Denial upheld on appeal
+6,Partial Overturn,Partial payment approved on appeal
+7,External Review,Escalated to external review organization

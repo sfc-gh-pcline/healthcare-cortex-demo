@@ -1,0 +1,112 @@
+GRADY HEALTH SYSTEM
+Clinical Guidelines: Emergency Department Evaluation and Management
+Document Number: GHS-CG-ED-2025-001
+Effective Date: January 1, 2025
+Department: Emergency Medicine
+Approved By: Chief Medical Officer
+
+SUBJECT: ED Visit Level Selection and Documentation Requirements for Billing Compliance
+
+1. PURPOSE
+
+This guideline establishes documentation requirements for Emergency Department evaluation and management (E/M) coding levels to ensure accurate billing, reduce claim denials, and maintain compliance with CMS and commercial payer requirements.
+
+2. ED VISIT LEVELS AND DOCUMENTATION REQUIREMENTS
+
+2.1 CPT 99281 - ED Visit Level 1 (Minor/Self-Limited):
+   - Chief complaint documented
+   - Brief history of present illness
+   - Limited examination (1 body area or organ system)
+   - Straightforward medical decision making
+   - Examples: Simple laceration, insect bite, prescription refill
+   - Expected denial rate: <1%
+
+2.2 CPT 99282 - ED Visit Level 2 (Low Severity):
+   - Chief complaint with HPI (1-3 elements)
+   - Limited examination (1-5 body areas)
+   - Low complexity medical decision making
+   - Examples: Simple fracture, UTI, otitis media
+   - Expected denial rate: 2%
+
+2.3 CPT 99283 - ED Visit Level 3 (Moderate Severity):
+   - Extended HPI (4+ elements or 3 chronic conditions)
+   - Extended examination (6+ body areas)
+   - Moderate complexity medical decision making
+   - At least 2 of: moderate data reviewed, moderate risk, moderate diagnoses
+   - Examples: Asthma exacerbation, cellulitis requiring IV antibiotics, abdominal pain with workup
+   - Expected denial rate: 5%
+
+2.4 CPT 99284 - ED Visit Level 4 (High Severity, No Immediate Threat):
+   - Comprehensive HPI
+   - Comprehensive examination (8+ body areas)
+   - Moderate to high complexity medical decision making
+   - Multiple diagnostic studies ordered and reviewed
+   - Examples: Chest pain with cardiac workup, acute abdomen, TIA evaluation
+   - Expected denial rate: 8%
+   - Common denial reason: Insufficient documentation of medical decision making complexity
+
+2.5 CPT 99285 - ED Visit Level 5 (High Severity, Immediate Threat):
+   - Comprehensive HPI and examination
+   - High complexity medical decision making
+   - Immediate life-threatening condition requiring urgent intervention
+   - Examples: STEMI, stroke, sepsis, trauma activation, respiratory failure
+   - Expected denial rate: 12%
+   - Common denial reasons: Diagnosis does not support level 5, insufficient documentation of threat to life
+
+3. DOCUMENTATION BEST PRACTICES
+
+3.1 Medical Decision Making (MDM) Documentation:
+   MDM is the PRIMARY driver of ED visit level selection. Document:
+   - Number and complexity of problems addressed
+   - Amount and complexity of data reviewed (labs, imaging, EKGs, records)
+   - Risk of complications, morbidity, or mortality
+   - Clinical reasoning for each test ordered and treatment decision
+
+3.2 Time-Based Documentation:
+   - Time may be used as the controlling factor when counseling/coordination exceeds 50%
+   - Document total time spent AND activities performed
+   - Include time for: record review, care coordination, patient/family counseling
+
+3.3 Critical Care Documentation (CPT 99291/99292):
+   - Document total critical care time separately
+   - Must specify the critical condition and what makes it life-threatening
+   - Document moment-to-moment clinical decision making
+   - Specify interventions: intubation, central line, vasopressors, etc.
+   - Minimum 30 minutes of critical care for initial code (99291)
+
+4. COMMON DENIAL SCENARIOS AND PREVENTION
+
+4.1 Level 4/5 Downcoded to Level 3:
+   - Cause: MDM documentation does not support the billed level
+   - Prevention: Ensure the note documents at least 2 of 3 MDM elements at the billed level
+   - Use the MDM grid as a reference when completing documentation
+
+4.2 CO-11 (Diagnosis inconsistent with procedure):
+   - Cause: ICD-10 code does not clinically support the ED level
+   - Prevention: Use the most specific ICD-10 code; document acuity in the diagnosis
+   - Example: Use R07.9 (chest pain, unspecified) for level 3, but I21.9 (AMI) for level 5
+
+4.3 Observation vs. Inpatient Status Denials:
+   - Medicare Two-Midnight Rule: Expected stay < 2 midnights = observation
+   - Document expected length of stay and clinical reasoning for admission status
+   - Physician attestation required within 24 hours of admission
+
+5. QUALITY METRICS
+
+The ED Coding Compliance Program monitors:
+   - Distribution of visit levels (expected: 5% L1, 20% L2, 35% L3, 25% L4, 15% L5)
+   - Denial rate by visit level
+   - Documentation completion rate within 24 hours
+   - Critical care documentation compliance
+   - Provider-specific coding patterns
+
+6. COMPLIANCE
+
+Failure to document at the level billed constitutes a compliance risk. Providers who consistently code above documentation support will be:
+   1. Notified by the Compliance Department
+   2. Offered additional coding education
+   3. Subject to focused audit if patterns persist
+
+Contact: ED Coding Compliance, ext. 4-2847
+Medical Records: ext. 4-3100
+Revenue Cycle Denials Team: ext. 4-5500

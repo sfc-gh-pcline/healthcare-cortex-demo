@@ -1,0 +1,96 @@
+GEORGIA MEDICAID / DEPARTMENT OF COMMUNITY HEALTH
+Provider Manual: Claims Submission and Processing Guidelines
+Effective: State Fiscal Year 2025
+
+SUBJECT: Medicaid Claims Filing Requirements and Common Denial Resolutions
+
+1. ELIGIBILITY VERIFICATION
+
+1.1 Medicaid eligibility must be verified for EVERY encounter:
+   - Use the Georgia MMIS Web Portal (www.mmis.georgia.gov)
+   - Check eligibility on the date of service, not just the date of scheduling
+   - Verify: active status, managed care plan assignment, benefit limits, TPL (third party liability)
+
+1.2 Retroactive Eligibility: Georgia Medicaid may grant retroactive eligibility up to 3 months prior to the application date. Providers may submit claims for dates of service during the retroactive period within 365 days of the eligibility determination date.
+
+2. CLAIMS SUBMISSION
+
+2.1 Filing Deadlines:
+   - Fee-for-service Medicaid: 365 days from date of service
+   - Managed Care (CMOs): Varies by plan (typically 90-180 days)
+     * Amerigroup: 180 days
+     * Peach State Health Plan: 180 days
+     * CareSource: 180 days
+     * WellCare: 120 days
+
+2.2 Required Claim Elements:
+   - Patient Medicaid ID number (13 digits)
+   - Provider Medicaid ID and NPI
+   - Referring provider NPI (for specialist and diagnostic services)
+   - ICD-10 diagnosis codes to highest specificity
+   - CPT/HCPCS procedure codes with required modifiers
+   - Place of service code
+   - Prior authorization number (when applicable)
+
+2.3 Electronic Submission:
+   - Payer ID: 61148090000 (Georgia Medicaid)
+   - Required for all providers billing >$5,000 annually
+   - HIPAA-compliant 837P/837I format
+
+3. COMMON DENIAL CODES AND RESOLUTIONS
+
+3.1 CO-22 (Care may be covered by another payer):
+   - Indicates third party liability (TPL) exists
+   - Georgia Medicaid is ALWAYS the payer of last resort
+   - Resolution: Bill the primary payer first, then submit to Medicaid with the primary payer's EOB
+   - If patient has no other coverage, submit TPL override form
+
+3.2 CO-197 (Prior authorization required):
+   - Georgia Medicaid requires prior auth for:
+     * All inpatient admissions (non-emergency)
+     * Outpatient surgeries >$2,500
+     * Advanced imaging (MRI, CT, PET)
+     * DME exceeding $500
+     * Behavioral health services beyond initial assessment
+   - Retrospective authorization available for emergencies (request within 2 business days)
+   - Authorization portal: www.mmis.georgia.gov/priorauth
+
+3.3 CO-29 (Timely filing):
+   - Claims denied for timely filing cannot be billed to the Medicaid member
+   - Appeals must include proof of timely submission (clearinghouse report, electronic confirmation)
+   - If the delay was caused by another payer (COB), include the other payer's EOB showing processing date
+
+3.4 CO-16 (Missing information):
+   - Common for claims missing: Medicaid ID, referring provider, diagnosis codes
+   - Corrected claims must be resubmitted within 60 days of the denial
+   - Use claim frequency code 7 (replacement) for corrected claims
+
+4. MANAGED CARE ORGANIZATION (MCO) DENIALS
+
+4.1 Georgia Medicaid members are predominantly enrolled in Care Management Organizations (CMOs). When a member is assigned to a CMO, claims must be submitted to the CMO, not fee-for-service Medicaid.
+
+4.2 CMO Denial Appeals:
+   - First level: Internal appeal to the CMO (30 days to file)
+   - Second level: State Fair Hearing through DCH (120 days to request)
+   - Members have the right to request continuation of services during appeal
+
+4.3 CMO Authorization Denials:
+   - CMOs must respond to standard authorization requests within 14 days
+   - Expedited requests must be responded to within 72 hours
+   - If CMO fails to respond timely, the service is deemed authorized
+
+5. GRADY-SPECIFIC MEDICAID CONSIDERATIONS
+
+5.1 Disproportionate Share Hospital (DSH): Grady qualifies for DSH supplemental payments. Accurate coding and complete claims are essential to maximize DSH eligibility calculations.
+
+5.2 340B Drug Pricing: Claims for drugs acquired under the 340B program must use modifier UD on outpatient pharmacy claims and modifier JG on physician-administered drugs.
+
+5.3 Presumptive Eligibility: Grady is a qualified entity for Medicaid Presumptive Eligibility. Patients screened as likely eligible may receive coverage for up to 60 days while the full application is processed.
+
+6. CONTACT INFORMATION
+
+Georgia Medicaid Provider Services: 1-800-766-4456
+MMIS Portal: www.mmis.georgia.gov
+Prior Authorization: 1-800-766-4456, Option 4
+Provider Enrollment: 1-800-766-4456, Option 2
+Grady Medicaid Eligibility Team: ext. 4-1200
